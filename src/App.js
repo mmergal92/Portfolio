@@ -8,6 +8,7 @@ import Projects from "./pages/projects";
 import Nav from "./components/Nav"
 import {Redirect} from 'react-router';
 import {useState} from 'react';
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
       </Switch>
+      <Footer />
       </Route>
     </div>
   );

@@ -11,7 +11,15 @@
   background: var(--main);
   color: var(--white);
   min-height: 100vh;
+  /* padding-bottom: 100px; */
   /* border: 1px solid red; */
+}
+.welcomeImage{
+  height: 400px;
+  width: 95%;
+}
+h2 {
+  font-size: 5rem
 }
 h4{
   color: var(--black);
@@ -32,16 +40,22 @@ h4{
   font-size: 3rem;
   /* border: 1px solid yellow; */
 }
+
+.portrait{
+  width: 10%;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 30px;
+}
 .projects{
   display: inline;
   background: var(--main);
-  height: 100%;
   padding-top: 50px;
   /* width: 100%; */
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   /* border: 1px solid yellow; */
 }
 .App-logo {
@@ -153,6 +167,13 @@ span {
 
 .App-link {
   color: #61dafb;
+}
+.footer {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+.github, .linkedin, .instagram {
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {
