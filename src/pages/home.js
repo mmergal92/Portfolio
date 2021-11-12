@@ -8,7 +8,12 @@ const Home = (props) =>{
         <div className= 'home'>
           <div className = 'hero'>
           <h1>maria mergal</h1>
-          <h5>maria is a full-stack software developer based in brooklyn, ny but currently on the road travelling across the U.S.</h5>
+          <h5>mmaria is a full-stack software developer based in brooklyn, ny  
+<br/>
+<br/>
+<br/>
+currently she is on the road travelling across the U.S.
+</h5>
           {/* <img className = "welcomeImage" src={homescreen} alt=" Intro Image"/> */}
           </div>
           {/* <Projects /> */}

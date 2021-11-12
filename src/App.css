@@ -11,20 +11,48 @@
   font-weight: 700;
   text-align: center;
   background: var(--white);
-  color: var(-main);
+  color: var(--black);
   min-height: 100vh;
   /* padding-bottom: 100px; */
   /* border: 1px solid red; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.home, .about, .contact, .resume {
+  display: inline;
+  background: var(--main);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  /* border: 1px solid yellow; */
+}
+.projects {
+  display: inline;
+  background: var(--main);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
 }
 .welcomeImage{
   height: 400px;
   width: 95%;
 }
 h1 {
-  color: var(--main);
+  color: var(--black);
   font-weight: 300;
   font-style: normal;
   font-size: 5rem
+}
+h3{
+  color: var(--black);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem
 }
 h4{
   font-family: 'Inconsolata', monospace;
@@ -35,26 +63,15 @@ h4{
 }
 h5{
   font-family: 'Inconsolata', monospace;
+  text-align: right;
   color: var(--black);
   font-weight: 300;
   margin: 10px;
   padding: 10px;
+  padding-right: 150px;
   font-size: 1rem;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.home, .about, .contact {
-  display: inline;
-  background: var(--main);
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 3rem;
-  /* border: 1px solid yellow; */
-}
+
 
 .portrait{
   width: 10%;

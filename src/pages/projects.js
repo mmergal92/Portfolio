@@ -7,7 +7,7 @@ const Projects = (props) =>{
     return (
         <div className = "projects">
         <div className ="project-text">
-            <h1>Projects</h1>
+            <h3>here is a look at some recent projects and work</h3>
         </div>
         <div className = "project1">
             <img className = "p1image" src={ImageProject} alt="Image of the Day Project"/>
