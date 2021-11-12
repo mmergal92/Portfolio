@@ -1,18 +1,17 @@
 import React, {useState} from 'react';
 import homescreen from "../assets/homescreen.jpg"
+import Projects from './projects';
+
 
 const Home = (props) =>{
       return ( 
         <div className= 'home'>
           <div className = 'hero'>
-          <h2>Maria Mergal</h2>
-          <h4>Full-Stack Software Developer</h4>
-          <img className = "welcomeImage" src={homescreen} alt=" Intro Image"/>
+          <h1>maria mergal</h1>
+          <h5>maria is a full-stack software developer based in brooklyn, ny but currently on the road travelling across the U.S.</h5>
+          {/* <img className = "welcomeImage" src={homescreen} alt=" Intro Image"/> */}
           </div>
-          <div className = "background">
-          <h4>Background</h4>  
-          <h5>I'm a full stack software developer based in Brooklyn, NY. </h5>
-          </div>
+          {/* <Projects /> */}
         </div>  
         )
 }
