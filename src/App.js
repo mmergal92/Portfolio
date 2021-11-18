@@ -21,7 +21,7 @@ function App() {
         <Route path='/projects' component={Projects}/>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
-        <Route path='/resume' component={Resume}/>
+        <Route path='/resume' url="https://drive.google.com/file/d/1huM1nQI686Q9vM92vFEVc0eVGhUndPiw/view?usp=sharing"/>
       </Switch>
       <Footer />
       </Route>

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+import { Redirect } from 'react-router';
 // import * as FaIcons from 'react-icons/fa';
 // import * as AiIcons from 'react-icons/ai';
 // import Sidebar from './Sidebar'
@@ -35,7 +36,7 @@ const Nav = () => {
             </Link>
         </div>
           <div className="rightnav">
-          <Link to="/resume" className="resumenav">
+          <Link to="https://drive.google.com/file/d/1huM1nQI686Q9vM92vFEVc0eVGhUndPiw/view?usp=sharing" target="_blank" className="resumenav">
                 <h4>resume</h4>
             </Link>
             <Link to="/contact" className="contactnav">
