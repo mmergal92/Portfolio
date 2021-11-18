@@ -37,9 +37,6 @@ const Nav = () => {
             </Link>
         </div>
           <div className="rightnav">
-          {/* <Link to="/resume" src={maria_mergal_resume} target="_blank" className="resumenav">
-                <h4>resume</h4>
-            </Link> */}
             <h4><a href={maria_mergal_resume} target="_blank" className="resumenav">resume</a></h4>
             <Link to="/contact" className="contactnav">
                 <h4>contact</h4>

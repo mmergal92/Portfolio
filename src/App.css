@@ -94,17 +94,11 @@ p{
   justify-content: left;
   /* border: 1px solid red; */
 }
-.leftnav a{
-  text-decoration: none;
-}
 .centernav{
   align-items:center;
   display: flex;
   justify-content: center;
   /* border: 1px solid black; */
-}
-.centernav a{
-  text-decoration: none;
 }
 .rightnav{
   align-items:right;
@@ -112,10 +106,7 @@ p{
   justify-content: right;
   /* border: 1px solid blue; */
 }
-.rightnav a{
-  text-decoration: none;
-}
-.menu-bars {
+/* .menu-bars {
   color: #13184A;
   margin-left: 2rem;
   font-size: 2rem;
@@ -168,7 +159,7 @@ p{
   display: flex;
   justify-content: start;
   align-items: center;
-}
+} */
 .home, .about, .contact, .resume {
   display: inline;
   background: var(--main);
@@ -304,6 +295,16 @@ span {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media screen and (max-width: 600px){
+  .navbar {
+    height: auto;
+    width: 100%;
+    /* border: 1px solid green; */
+  }
+  .projectnav h4, .contactnav h4, .aboutnav h4, .homenav h4, .resumenav{
+    font-size: small;
   }
 }
 /* .pdf-container{
