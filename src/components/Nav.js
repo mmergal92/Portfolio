@@ -9,6 +9,7 @@ import Home from '../pages/home';
 import Projects from '../pages/projects';
 import About from '../pages/about';
 import Contact from '../pages/contact';
+import maria_mergal_resume from '../assets/maria_mergal_resume.pdf';
 
 const Nav = () => {
     // const [sidebar, setSidebar] = useState(false);
@@ -36,9 +37,10 @@ const Nav = () => {
             </Link>
         </div>
           <div className="rightnav">
-          <Link to="https://drive.google.com/file/d/1huM1nQI686Q9vM92vFEVc0eVGhUndPiw/view?usp=sharing" target="_blank" className="resumenav">
+          {/* <Link to="/resume" src={maria_mergal_resume} target="_blank" className="resumenav">
                 <h4>resume</h4>
-            </Link>
+            </Link> */}
+            <h4><a href={maria_mergal_resume} target="_blank" className="resumenav">resume</a></h4>
             <Link to="/contact" className="contactnav">
                 <h4>contact</h4>
             </Link>  

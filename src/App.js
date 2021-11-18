@@ -10,6 +10,7 @@ import {Redirect} from 'react-router';
 import {useState} from 'react';
 import Footer from "./components/footer";
 import Resume from './pages/resume';
+import maria_mergal_resume from './assets/maria_mergal_resume.pdf'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path='/projects' component={Projects}/>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
-        <Route path='/resume' url="https://drive.google.com/file/d/1huM1nQI686Q9vM92vFEVc0eVGhUndPiw/view?usp=sharing"/>
+        {/* <Route path='/resume' src={maria_mergal_resume}/> */}
       </Switch>
       <Footer />
       </Route>

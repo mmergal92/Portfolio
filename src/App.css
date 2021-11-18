@@ -315,7 +315,10 @@ span {
   align-items: center;
   justify-content: center;
 } */
-
+.resumenav{
+  text-decoration: none;
+  color: var(--black)
+}
 .footer {
   position: fixed;
   background-color: #FFFFF4; 
