@@ -25,21 +25,21 @@ const Nav = () => {
             </Link> */}
         <div className="leftnav">
             <Link to="/projects" className="projectnav">
-                <h4>work</h4>
+                <h6>work</h6>
             </Link>
             <Link to="/about"className="aboutnav">
-                <h4>about</h4>
+                <h6>about</h6>
             </Link>
         </div>
         <div className="centernav">
             <Link to="/" className="homenav">
-                <h4>maria mergal</h4>
+                <h6>maria mergal</h6>
             </Link>
         </div>
           <div className="rightnav">
-            <h4><a href={maria_mergal_resume} target="_blank" className="resumenav">resume</a></h4>
+            <h6><a href={maria_mergal_resume} target="_blank" className="resumenav">resume</a></h6>
             <Link to="/contact" className="contactnav">
-                <h4>contact</h4>
+                <h6>contact</h6>
             </Link>  
           </div>
         </div>

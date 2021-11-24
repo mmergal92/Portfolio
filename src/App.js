@@ -10,6 +10,7 @@ import {Redirect} from 'react-router';
 import {useState} from 'react';
 import Footer from "./components/footer";
 import Resume from './pages/resume';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import maria_mergal_resume from './assets/maria_mergal_resume.pdf'
 
 function App() {
