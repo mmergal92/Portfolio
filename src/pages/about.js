@@ -8,7 +8,7 @@ const About = (props) =>{
             <h1>all about me</h1>
         </div>
         <div className = "about-bottom">
-            <p>maria is a full-stack software developer based in brooklyn, ny and currently on the road travelling across the U.S.<br/>
+            <p>maria is a full-stack software developer based in brooklyn, ny and currently on the road traveling across the U.S.<br/>
             she is passionate about helping others build their brands and create well designed, interactive websites that keep their audience coming back for more.<br/>
             <br/>
             skills: JavaScript, React, Django, Python, HTML, CSS
