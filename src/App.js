@@ -11,7 +11,7 @@ import {useState} from 'react';
 import Footer from "./components/footer";
 import Resume from './pages/resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import maria_mergal_resume from './assets/maria_mergal_resume.pdf'
+import mergal_resume from './assets/mergal_resume.pdf'
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path='/projects' component={Projects}/>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
-        {/* <Route path='/resume' src={maria_mergal_resume}/> */}
+        {/* <Route path='/resume' src={mergal_resume}/> */}
       </Switch>
       <Footer />
       </Route>

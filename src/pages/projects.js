@@ -13,12 +13,12 @@ const Projects = (props) =>{
         <div className = "project1">
             <div className="p1text">
                 <div className = "p1-top">
-                    <h6>self-initiated project</h6>
+                    <h6>introductory project</h6>
                 </div>
                 <div className = "p1-bottom">
                     <h2 className = "p1-bottomheader">Image of the Day</h2><br/>
                     <p>This project connects to the Metropolitan Museum of Art to provide images of post-impressionist artists. There are 5 artists to choose from and each artist has an array of 10 random pantaings.</p><br/>
-                    <h6><a href = "https://git.generalassemb.ly/mmergal92/project1/tree/master/MariaMergalProject1" target="_blank" rel="noreferrer noopener" >Github</a><br/>
+                    <h6><a href = "https://github.com/mmergal92/Image_Of_The_Day_Project" target="_blank" rel="noreferrer noopener" >Github</a><br/>
                     <a href = "https://pages.git.generalassemb.ly/mmergal92/Image_API_Project/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h6>
                 </div>
             </div>
@@ -32,12 +32,12 @@ const Projects = (props) =>{
             </div>
             <div className="p2text">
                 <div className = "p2-top">
-                    <h6>self-initiated project</h6>
+                    <h6>full-stack project</h6>
                 </div>
                 <div className = "p2-bottom">
                     <h2 className = "p1-bottomheader">Branding Kits</h2><br/>
                     <p>This project allows brands to save their branding kits online. They can open the website and see their own branding colors, typography and images in a moodboard in one place.</p><br/>
-                    <h6><a href = "https://github.com/mmergal92/project2m" target="_blank" rel="noreferrer noopener" >Github</a><br/>
+                    <h6><a href = "https://github.com/mmergal92/Brand_Kits_Project" target="_blank" rel="noreferrer noopener" >Github</a><br/>
                     <a href = "https://brand-kits.herokuapp.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h6>
                 </div>
             </div>

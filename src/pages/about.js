@@ -11,7 +11,7 @@ const About = (props) =>{
             <p>maria is a full-stack software developer based in brooklyn, ny and currently on the road traveling across the U.S.<br/>
             she is passionate about helping others build their brands and create well designed, interactive websites that keep their audience coming back for more.<br/>
             <br/>
-            skills: JavaScript, React, Django, Python, HTML, CSS
+            skills: JavaScript, React, Django, Python, HTML, CSS, Node.js, EJS, Heroku, Netlify, JQuery, Figma. 
             </p>
         </div>
     </div>

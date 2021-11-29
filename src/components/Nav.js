@@ -9,7 +9,7 @@ import Home from '../pages/home';
 import Projects from '../pages/projects';
 import About from '../pages/about';
 import Contact from '../pages/contact';
-import maria_mergal_resume from '../assets/maria_mergal_resume.pdf';
+import mergal_resume from '../assets/mergal.resume.pdf';
 
 const Nav = () => {
     // const [sidebar, setSidebar] = useState(false);
@@ -37,7 +37,7 @@ const Nav = () => {
             </Link>
         </div>
           <div className="rightnav">
-            <h6><a href={maria_mergal_resume} target="_blank" className="resumenav">resume</a></h6>
+            <h6><a href={mergal_resume} target="_blank" className="resumenav">resume</a></h6>
             <Link to="/contact" className="contactnav">
                 <h6>contact</h6>
             </Link>  
