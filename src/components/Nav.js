@@ -9,7 +9,7 @@ import Home from '../pages/home';
 import Projects from '../pages/projects';
 import About from '../pages/about';
 import Contact from '../pages/contact';
-import mergal_resume from '../assets/mergal.resume.pdf';
+import mergal_resume from '../assets/mergal_resume.pdf';
 
 const Nav = () => {
     // const [sidebar, setSidebar] = useState(false);
