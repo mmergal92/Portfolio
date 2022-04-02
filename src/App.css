@@ -6,10 +6,10 @@
   --white: #FFFFF4;
 }
 .App {
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
   text-align: center;
-  background: var(--white);
   color: var(--black);
   min-height: 100vh;
   position: relative;
@@ -39,12 +39,10 @@ h1 {
   text-align: right;
   font-weight: 500;
   margin: 10px;
-  font-size: 80px;
 }
 h2{
   text-align: left;
   font-weight: 500;
-  margin: 10px;
   font-size: 40px;
   padding-right: 15px;
   -webkit-text-stroke-width: 1px;
@@ -52,19 +50,16 @@ h2{
   color: transparent;
 }
 h4{
+  font-family: neue-haas-grotesk, sans-serif;
   color: var(--black);
-  font-weight: 300;
-  font-size: 2rem;
-  margin: 10px;
-  padding: 10px;
+  font-weight: 200;
+  text-align: left;
+  font-size: 10px;
 }
 h5{
-  text-align: right;
+  text-align: left;
   color: var(--black);
   font-weight: 300;
-  margin: 10px;
-  padding: 10px;
-  padding-right: 150px;
   font-size: 16px;
 }
 h6{
@@ -99,81 +94,21 @@ p{
   justify-content: left;
   /* border: 1px solid red; */
 }
-.centernav{
-  align-items:center;
-  display: flex;
-  justify-content: center;
-  /* border: 1px solid black; */
-}
 .rightnav{
   align-items:right;
   display: flex;
   justify-content: right;
   /* border: 1px solid blue; */
 }
-/* .menu-bars {
-  color: #13184A;
-  margin-left: 2rem;
-  font-size: 2rem;
-  background: none;
-}
-.nav-menu{
-  background-color: var(--secondary);
-  width: 250px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: -100%;
-  transition: 850ms;
-}
-.nav-menu.active {
-  left: 0;
-  transition: 350ms;
-}
-.nav-text{
-  flex-flow: column wrap;
-  justify-content: start;
-  align-items: center;
-  padding: 8px 0px 8px 16px;
-  list-style: none;
-  height: 60px;
-}
-.nav-text a {
-  text-decoration: none;
-  color: var(--white);
-  font-size: 18px;
-  width: 95%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 0 16px;
-  border-radius: 4px;
-}
-.nav-text a:hover {
-  background-color: var(--black);
-}
-.nav-menu-items {
-  width: 100%;
-}
-.navbar-toggle {
-  background-color: var(--secondary);
-  width: 100%;
-  height: 80px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-} */
 .home, .about, .contact, .resume {
   display: inline;
-  background: var(--main);
   align-items: center;
   justify-content: center;
   text-align: center;
   font-size: 3rem;
   /* border: 1px solid yellow; */
 }
+
 .image{
   display: inline;
   pointer-events: auto;
@@ -206,133 +141,84 @@ body .image:hover + .hover-image{
   height: auto !important;
   margin-bottom: 0;
 }
-.about-top{
-  padding-top: 100px;
-  padding-bottom: 50px;
-  padding-right: 10px;
-  padding-left: 50px;
+.home{
+  display: inline-block;
+  width: 100%;
+height: 80vh;
 }
-.about-bottom p{
-  padding-bottom: 100px;
-  padding-right: 10px;
-  padding-left: 250px;
+.home-top h1{
   text-align: right;
-}
-.projects{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  right: 0 !important;
+  padding-top: 15%;
+  font-size: 3em;
+  vertical-align: middle;
+  align-items: center;
+  line-height: 0.8;
 }
 .project-text h1{
-  padding-bottom: 100px;
   text-align: center;
-  color: var(--main)
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 7em;
+  vertical-align: middle;
+  align-items: center;
 }
-.project1, .project2 {
-  display: flex;
-  padding-bottom: 20px;
-  padding-top: 20px;
+.project-page{
+  display: grid;
+  grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+  grid-gap: 40px;
+  padding: 60px 0;
 }
-.p1text, .p2text{
-  display: inline-block;
-  flex: 1;
-  /* align-items: left;
-  text-align: left; */
-  /* border: 1px solid red; */
-  /* padding-top: 20px;
-  padding-left: 15px; */
-  /* width: 50%; */
-}
-.p1-top h6{
-  /* border: 1px solid purple; */
-  align-items: left;
+.project-page h4{
+  font-family: neue-haas-grotesk, sans-serif;
+  color: var(--black);
+  font-weight: 200;
   text-align: left;
+  font-size: 16px;
 }
-.p2-top h6{
-  align-items: right;
-  text-align: right;
-}
-.p2-top{
-  align-items: right;
-  text-align: right;
-}
-.p1-top h6, .p2-top h6{
-  color:var(--hover);
-  padding-right: 15px;
-  font-weight: bold;
-}
-.p1-bottom{
+.project-page h5{
   text-align: left;
-  bottom: 0;
-  position: relative;
-  top: 85%;
-  padding: 0px;
-  margin: 0px;
-  transform: translateY(-100%);
-  display: block;
-
+  color: var(--black);
+  font-weight: 300;
+  font-size: 14px;
 }
-.p2-bottom{
-  /* border: 1px solid green; */
-  text-align: right;
-  position: relative;
-  top: 85%;
-  padding: 0px;
-  margin: 0px;
-  transform: translateY(-100%);
-  display: block;
-  bottom: 0;
-}
-.p2-bottom p{
-  padding-left: 15px;
-}
-.p2-bottom h2{
-  text-align: right;
-  padding-left: 15px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--black);
-  color: transparent;
-}
-.p1-image, .p2-image{
-  flex: 1;
-  display: flex;
-}
-.p1-bottomheader h2, .p1-bottom p, .p1-bottom h6{
-  text-align: left;
-}
-.p2-bottomheader h2, .p2-bottom p,  .p2-bottom h6{
-  text-align: right;
-}
-.p2-bottom h6, .p1-bottom h6{
-  padding: 0px;
-}
-.p2-bottom h2, .p2-bottom h6{
-  padding: 0px;
-}
-.p2-bottom a, .p1-bottom a{
+.project-page h5 a{
   text-decoration: none;
   color: var(--black);
 }
-.p2-bottom a:hover, .p1-bottom a:hover{
+.project-page h5 a:hover{
   color: var(--hover);
 }
-.p1image, .p2image, .p3image{
-  /* flex-basis: auto; */
-  margin-left: auto;
-  margin-right: auto;
-  /* border-radius: 15px; */
-  width: 100%;
+.projects{
+  grid-column: 2 / span 12;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(auto, 60px));
+  grid-gap: 40px;
 }
+.individual{
+  grid-column-end: span 6;
+  display: flex;
+  flex-direction: column;
+}
+.individual-image-container{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.individual-image-container img{
+  width: 100%;
+  position: relative;
+}
+.individual-image-container video{
+  width: 100%;
+  position: relative;
+}
+.individual-content{
+  margin-top: 10px;
+}
+
 span {
   margin-left: 16px;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 @media screen and (max-width: 600px){
   .navbar {
@@ -352,22 +238,7 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
   color:var(--hover)
 }
 
-/* .pdf-container{
-  width: 100vw;mobi
-  height: 100vh;
-  overflow-y: auto;
-  background-color: lightgrey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-.resumenav{
-  text-decoration: none;
-  color: var(--black)
-}
 .footer {
-  position: fixed;
-  background-color: #FFFFF4; 
   display: flex;
   bottom: 0;
   justify-content:space-between;
@@ -377,42 +248,55 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
   width: 100%;
   /* border: 1px solid green; */
 }
+.footer a{
+  text-decoration: none !important;
+}
+.footer a:hover h6{
+  color: var(--hover) !important;
+}
 .footer-left{
   display: inline-block;
   align-items: left;
-  padding-left: 10px;
   padding-bottom: 3px;
 }
 .footer-left p, a{ 
   text-align: left; 
   text-decoration: none;
 }
-.footer-center{
-  display: inline-block;;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 3px;
-}
 .footer-right{
-  display: inline-block;;
+  /* border: red solid 1px; */
+  display: flex;
   justify-content:right;
+  vertical-align: bottom !important;
   align-items: right;
-  padding-right: 10px;
   padding-bottom: 3px;
 }
-.footer-right p{
+.footer-right h6{
   padding-right: 10px;
   text-align:right;
 }
-.github, .linkedin, .instagram {
-  padding: 5px;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 720px){
+  .App{
+    overflow: hidden;
   }
-  to {
-    transform: rotate(360deg);
+  .project-page{
+    grid-gap: 20px;
+  }
+  .projects{
+    grid-column: 2 / span 12;
+  }
+  .individual{
+    grid-column-end: span 10;
+  }
+  .home-top h1{
+    padding-top: 40%;
+    font-size: 1.25em;
+  }
+  .project-text h1{
+    font-size: 4.5em;
+  }
+  .footer h6{
+    font-size: 0.5rem;
   }
 }
