@@ -3,6 +3,7 @@ import image_ot_day from '../assets/image_ot_day.jpg'
 import brandingkits from '../assets/brandingkits.png'
 import stocks from '../assets/stocks.jpg'
 import sample_site_AdobeCreativeCloudExpress from '../assets/sample_site_AdobeCreativeCloudExpress.mp4'
+import sample_image from '../assets/sample_image.png'
 
 const Projects = (props) =>{
     return (
@@ -13,10 +14,12 @@ const Projects = (props) =>{
         < div className= "project-page">
         <div className = "projects">
             <div className = "individual">
-                <div className="individual-image-container">
-                <a href = "https://mmergal92.github.io/Sample_site/" target="_blank" rel="noreferrer noopener" ><video autoPlay loop muted playsInline className="video-style">
+                <div className="individual-image-container sample-image">
+                <a href = "https://mmergal92.github.io/Sample_site/" target="_blank" rel="noreferrer noopener" >
+                        <video autoPlay loop muted>
                         <source src={sample_site_AdobeCreativeCloudExpress} type="video/mp4" />
-                    </video></a>
+                        </video>
+                        </a>
                 </div>
                 <div className = "individual-content">
                     <h2 >Brand Agency Sample Site</h2><br/>
