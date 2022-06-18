@@ -4,6 +4,8 @@ import brandingkits from '../assets/brandingkits.png'
 import stocks from '../assets/stocks.jpg'
 import sample_site_AdobeCreativeCloudExpress from '../assets/sample_site_AdobeCreativeCloudExpress.mp4'
 import sample_image from '../assets/sample_image.png'
+import AAFSCfeatures from '../assets/AAFSCfeatures.jpg'
+import ALportfolio from '../assets/ALportfolio.jpg'
 
 const Projects = (props) =>{
     return (
@@ -13,6 +15,26 @@ const Projects = (props) =>{
         </div>
         < div className= "project-page">
         <div className = "projects">
+            <div className="individual">
+                <div className="individual-image-container">
+                    <a href = "https://annaliselockhart.com/" target="_blank" rel="noreferrer noopener" ><img src={ALportfolio} alt="Annalise Lockhart Portfolio"/></a>
+                </div>
+                <div className = "individual-content">
+                    <h2>Annalise Lockhart Porfolio</h2><br/>
+                    <h4>Together with the UX designer, we created a brand identity for a film director's portfolio that evokes emotion, builds a connection with her audience, and communicates her deeper purpose. After developing her brand identity, we created a website that is the digital representation of this brand. This is a WordPress website with custom coding that I developed. </h4>
+                    <h5><a href = "https://annaliselockhart.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
+                </div>
+            </div>
+            <div className="individual">
+                <div className="individual-image-container">
+                    <a href = "https://www.aafscny.org/" target="_blank" rel="noreferrer noopener" ><img src={AAFSCfeatures} alt="Arab American Family Support Center"/></a>
+                </div>
+                <div className = "individual-content">
+                    <h2>Arab American Family Support Center Features</h2><br/>
+                    <h4>I created several features for this existing WordPress website. I added the rotating banner found on the homepage. I also created a new blog layout and implemented a search and filter feature. These features all use Advanced Custom Fields so that the client can update and edit internally, as needed.</h4>
+                    <h5><a href = "https://www.aafscny.org/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
+                </div>
+            </div>
             <div className = "individual">
                 <div className="individual-image-container sample-image">
                 <a href = "https://mmergal92.github.io/Sample_site/" target="_blank" rel="noreferrer noopener" >
