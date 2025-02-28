@@ -6,11 +6,13 @@ const Home = (props) =>{
       return ( 
         <div className= 'home'>
           <div className = "home-top">
-            <h3>I'm a full-stack developer with a passion for building user-focused products, blending my background in education, design, and multilingual communication to create meaningful experiences.</h3>
+            <h1>SOFTWARE 
+              <br/>
+              ENGINEER
+            </h1>
           </div>
           <div className = "home-bottom">
-            <h1>Maria Mergal</h1>
-            <p>welcome to my 2025 portfolio...</p>
+            <p>maria is a full-stack software developer based in brooklyn, ny</p>
           </div>
         </div>  
         )

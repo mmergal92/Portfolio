@@ -1,8 +1,8 @@
 :root {
-  --black: #1F0001;
-  --main: #1F0001;
-  --secondary: #FDF8EF;
-  --hover: #FDF8EF;
+  --black: #32362B;
+  --main: #42523D;
+  --secondary: #7D967A;
+  --hover: #CAB4A5;
   --white: #FFFFF4;
 }
 .App {
