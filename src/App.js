@@ -5,10 +5,10 @@ import Home from "./pages/home";
 import newHome from "./pages/newhome";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
-import Navigation from "./components/nav";
 import {Redirect} from 'react-router';
 import {useState} from 'react';
 import Footer from "./components/footer";
+import Navigation from "./components/navigation";
 import Resume from './pages/resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import mergal_resume from './assets/mergal_resume.pdf'
