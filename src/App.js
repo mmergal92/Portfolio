@@ -35,8 +35,9 @@ function App() {
         </div>
         <Route path='/' exact component={Home}/>
         <Route path='/projects' component={Projects}/>
+        <Route path='/newhome' component={newHome}/>
             <Footer />
-        <Route path='/newhome' element={newHome}/>
+     
       </Router>
     </div>
   );
