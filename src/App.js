@@ -2,9 +2,10 @@ import './App.css';
 //IMPORT ROUTE and COMPONENTS
 import About from "./pages/about";
 import Home from "./pages/home";
+import newHome from "./pages/newhome";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
-import Nav from "./components/Nav"
+import Nav from "./components/Nav";
 import {Redirect} from 'react-router';
 import {useState} from 'react';
 import Footer from "./components/footer";
@@ -35,6 +36,7 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/projects' component={Projects}/>
             <Footer />
+        <Route path='/newhome' element={newHome}/>
       </Router>
     </div>
   );
