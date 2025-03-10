@@ -5,11 +5,10 @@ import Home from "./pages/home";
 import newHome from "./pages/newhome";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
-import Nav from "./components/nav";
+import Navigation from "./components/nav";
 import {Redirect} from 'react-router';
 import {useState} from 'react';
 import Footer from "./components/footer";
-import Nav from "./components/nav";
 import Resume from './pages/resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import mergal_resume from './assets/mergal_resume.pdf'
@@ -22,8 +21,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        
-     <Nav />
+
+     <Navigation />
         <Route path='/' exact component={Home}/>
         <Route path='/projects' component={Projects}/>
         <Route path='/newhome' component={newHome}/>
