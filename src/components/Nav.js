@@ -14,9 +14,6 @@ import React from 'react';
 import home from '../pages/home';
 import projects from '../pages/projects';
 
-const [bcolor, changeBcolor] = useState("#FFFFF4");
-
-
 const Nav = () =>{
     return (
 <div className="navbar">

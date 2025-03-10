@@ -17,11 +17,12 @@ import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 function App() {
 
-  const [bcolor, changeBcolor] = useState("#FFFFF4");
+
 
   return (
-    <div className="App" style ={{background: bcolor }}>
+    <div className="App">
       <Router>
+        
      <Nav />
         <Route path='/' exact component={Home}/>
         <Route path='/projects' component={Projects}/>
