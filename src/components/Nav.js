@@ -10,6 +10,26 @@
 // import About from '../pages/about';
 // import Contact from '../pages/contact';
 // import mergal_resume from '../assets/mergal_resume.pdf';
+import React from 'react';
+import home from '../pages/home';
+import projects from '../pages/projects';
+
+const [bcolor, changeBcolor] = useState("#FFFFF4");
+
+
+const Nav = () =>{
+    return (
+<div className="navbar">
+<div className="leftnav">
+    <a href={home} className="homenav"><h6>MARIA MERGAL</h6></a> 
+</div>
+  <div className="rightnav">
+    <a href={projects} className="projectnav"><h6>WORK</h6></a> 
+  </div>
+</div>
+    )
+}
+export default Nav;
 
 // const Nav = () => {
 //     // const [sidebar, setSidebar] = useState(false);
