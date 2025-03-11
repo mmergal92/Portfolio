@@ -12,7 +12,7 @@ const Home = (props) =>{
             </h1>
           </div>
           <div className = "home-bottom">
-            <p>maria is a full-stack software developer based in brooklyn, ny</p>
+            <p>maria is a full-stack software developer based in astoria, ny</p>
           </div>
         </div>  
         )
