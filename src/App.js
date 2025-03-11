@@ -11,7 +11,7 @@ import Footer from "./components/footer";
 import Navigation from "./components/navigation";
 import Resume from './pages/resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import mergal_resume from './assets/Maria_Mergal_Resume.pdf'
+import mergal_resume from './assets/Maria_resume.pdf'
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 function App() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import About from '../pages/about';
-import mergal_resume from "../assets/Maria_Mergal_Resume.pdf"
+import mergal_resume from "../assets/Maria_resume.pdf"
 
 const Footer = () =>{
     return (
