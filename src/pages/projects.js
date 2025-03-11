@@ -10,7 +10,7 @@ import fts from '../assets/fts.png'
 import mapping from '../assets/mapping.png'
 import wmjordanvideo from '..assets/wmjordanvideo.mp4'
 import vavideo from '..assets/vavideo.mp4'
-import academic from '..assets/unnamed.gif'
+import academic from '../assets/fts.png'
 
 const Projects = (props) =>{
     return (
