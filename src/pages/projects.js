@@ -6,6 +6,8 @@ import sample_site_AdobeCreativeCloudExpress from '../assets/sample_site_AdobeCr
 import sample_image from '../assets/sample_image.png'
 import AAFSCfeatures from '../assets/AAFSCfeatures.jpg'
 import ALportfolio from '../assets/ALportfolio.jpg'
+import fts from '../assets/fts.jpg'
+import mapping from '../assets/mapping.jpg'
 
 const Projects = (props) =>{
     return (
@@ -13,8 +15,58 @@ const Projects = (props) =>{
         <div className ="project-text">
             <h1>CURRENT WORK</h1>
         </div>
-        < div className= "project-page">
+        <div className= "project-page">
         <div className = "projects">
+            <div className="individual">
+                <div className="individual-image-container">
+                    <a href = "https://academiccme.com/" target="_blank" rel="noreferrer noopener" ><img src={ALportfolio} alt="AcademicCME website"/></a>
+                </div>
+                <div className = "individual-content">
+                    <h2>AcademicCME Website Redesign</h2><br/>
+                    <h4>AcademicCME provides continuing medical education to medical professionals around the world. Recognizing the need to enhance user experience, strengthen brand presence within the educational community, and drive user acquisition and retention, AcademicCME partnered with our team to develop a comprehensive digital solution. Our team created an updated brand that promoted user trust and transformed their site by building a custom user management system and a robust CME course creation platform.</h4>
+                    <h5><a href = "https://academiccme.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
+                </div>
+            </div>
+            <div className = "individual">
+                 <div className="individual-image-container">    
+                 <a href = "https://wmjordan.com/" target="_blank" rel="noreferrer noopener" ><img src={image_ot_day} alt="WMJordan website"/></a>
+                </div>
+                <div className = "individual-content">
+                    <h2>W.M. Jordan Website Redesign</h2><br/>
+                    <h4>W.M. Jordan Company is a leading construction and real estate development firm serving Virginia, North Carolina, and South Carolina. Committed to quality and excellence, the company supports projects from concept to completion in diverse markets across the region and adds value to every project through quality workmanship, efficiency, and a positive attitude. Our team was brought on to future-proof W.M. Jordan and to create a new website that not only followed current best practices and reflected the growth of the company, but also allowed for scalability.</h4>
+                    <h5><a href = "https://wmjordan.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
+                </div>    
+            </div>
+            <div className="individual">
+                <div className="individual-image-container">
+                    <a href = "https://focaltherapy.org/" target="_blank" rel="noreferrer noopener" ><img src={fts} alt="Focal Therapy Society website"/></a>
+                </div>
+                <div className = "individual-content">
+                    <h2>Focal Therapy Society Website Redesign</h2><br/>
+                    <h4>The Focal Therapy Society is an educational initiative that focuses on advancing minimally invasive cancer treatments to destroy prostate cancer while preventing a man’s continence and potency. Through annual conferences and distinguished faculty, the society fosters a forward-thinking community that is dedicated to improving patient care with the latest techniques. Our team partnered with FTS to create a more comprehensive online platform for their society members and transform the website into a tool that can be used to showcase events, learner resources, and technological advances for the society.</h4>
+                    <h5><a href = "https://focaltherapy.org/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
+                </div>
+            </div>
+            <div className="individual">
+                <div className="individual-image-container">
+                    <a href = "https://www.visitaugustacounty.com/" target="_blank" rel="noreferrer noopener" ><img src={ALportfolio} alt="Visit Augusta website"/></a>
+                </div>
+                <div className = "individual-content">
+                    <h2>Visit Augusta Website Redesign</h2><br/>
+                    <h4>Visit Augusta County is a tourism company that focuses on attracting visitors to Augusta County, located in Virginia's Shenandoah Valley. It’s a destination known for its outdoor recreation, local farms, historical landmarks, and scenic beauty. Our team redesigned Augusta County’s website to elevate its tourism appeal and highlight the natural beauty along with its other attractions and make it easier for visitors to plan their perfect getaway.</h4>
+                    <h5><a href = "https://www.visitaugustacounty.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
+                </div>
+            </div>
+            <div className="individual">
+                <div className="individual-image-container">
+                    <a href = "https://mariam100.sg-host.com/" target="_blank" rel="noreferrer noopener" ><img src={mapping} alt="Arab American Family Support Center"/></a>
+                </div>
+                <div className = "individual-content">
+                    <h2>Mapping Communities Microsite Build</h2><br/>
+                    <h4>This project aims to study and map the histories of two Black enclaves in New York City—Seneca Village and Weeksville— from the early 1800s to the mid 1950s, highlighting their cultural, social, and historical significance. By examining public records, historical contexts, and racial dynamics, it seeks to create educational resources that amplify silenced voices and deepen understanding of Black communities' contributions to NYC's development.</h4>
+                    <h5><a href = "https://mariam100.sg-host.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
+                </div>
+            </div>
             <div className="individual">
                 <div className="individual-image-container">
                     <a href = "https://annaliselockhart.com/" target="_blank" rel="noreferrer noopener" ><img src={ALportfolio} alt="Annalise Lockhart Portfolio"/></a>
@@ -50,40 +102,7 @@ const Projects = (props) =>{
                     <a href = "https://mmergal92.github.io/Sample_site/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
             </div>
-            <div className="individual">
-                <div className="individual-image-container">
-                    <a href = "https://brand-kits.herokuapp.com/" target="_blank" rel="noreferrer noopener" ><img src={brandingkits} alt=" Branding Kits Project"/></a>
-                </div>
-                <div className = "individual-content">
-                    <h2>Branding Kits Agency App</h2><br/>
-                    <h4>This project allows brands to save their branding kits online. They can open the website and see their own branding colors, typography and images in a moodboard in one place.</h4>
-                    <h5><a href = "https://github.com/mmergal92/Brand_Kits_Project" target="_blank" rel="noreferrer noopener" >Github</a>&nbsp;&nbsp;&nbsp;
-                    <a href = "https://brand-kits.herokuapp.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
-                </div>
-            </div>
-            <div className = "individual">
-                <div className="individual-image-container">
-                <a href = "https://stock-prediction-forum-app.herokuapp.com/" target="_blank" rel="noreferrer noopener" ><img src={stocks} alt=" Stock Prediction Forum Project"/></a>
-                </div>
-                <div className = "individual-content">
-                    <h2>Stock Prediction Forum App</h2><br/>
-                    <h4>This stock forum app provides insights into stock prices for several very active companies. Logged-in users can interact with the app and leave comments and predictions for other logged-in users to view, as well.</h4>
-                    <h5><a href = "https://github.com/mmergal92/Stock_Prediction_Forum_App/tree/dev" target="_blank" rel="noreferrer noopener" >Github</a>&nbsp;&nbsp;&nbsp;
-                    <a href = "https://stock-prediction-forum-app.herokuapp.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
-                </div>
-            </div>
-            <div className = "individual">
-                 <div className="individual-image-container">    
-                 <a href = "https://pages.git.generalassemb.ly/mmergal92/Image_API_Project/" target="_blank" rel="noreferrer noopener" ><img src={image_ot_day} alt="Image of the Day Project"/></a>
-                </div>
-                <div className = "individual-content">
-                    <h2>Image of the Day App</h2><br/>
-                    <h4>This project connects to the Metropolitan Museum of Art to provide images of post-impressionist artists. There are 5 artists to choose from and each artist has an array of 10 random pantaings.</h4>
-                    <h5><a href = "https://github.com/mmergal92/Image_Of_The_Day_Project" target="_blank" rel="noreferrer noopener" >Github</a>&nbsp;&nbsp;&nbsp;
-                    <a href = "https://pages.git.generalassemb.ly/mmergal92/Image_API_Project/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
-                </div>    
-                </div>
-    </div>
+        </div>
     </div>
     </>
         );
