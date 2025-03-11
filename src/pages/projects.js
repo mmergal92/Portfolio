@@ -10,7 +10,7 @@ import fts from '../assets/fts.png'
 import mapping from '../assets/mapping.png'
 import wmjordanvideo from '../assets/wmjordanvideo.mp4'
 import vavideo from '../assets/vavideo.mp4'
-import academic from '../assets/unnamed.gif'
+import academic from '../assets/academic.mp4'
 
 const Projects = (props) =>{
     return (
@@ -21,8 +21,12 @@ const Projects = (props) =>{
         <div className= "project-page">
         <div className = "projects">
             <div className="individual">
-                   <div className="individual-image-container">
-                    <a href = "https://academiccme.com/" target="_blank" rel="noreferrer noopener" ><img src={academic} alt="AcademicCME website"/></a>
+                <div className="individual-image-container sample-image">
+                <a href = "https://academiccme.com/" target="_blank" rel="noreferrer noopener" >
+                        <video autoPlay loop muted>
+                        <source src={academic} type="video/mp4" />
+                        </video>
+                        </a>
                 </div>
                 <div className = "individual-content">
                     <h2>AcademicCME <br/>Website Redesign</h2><br/>
