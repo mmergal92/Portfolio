@@ -8,9 +8,9 @@ import AAFSCfeatures from '../assets/AAFSCfeatures.jpg'
 import ALportfolio from '../assets/ALportfolio.jpg'
 import fts from '../assets/fts.png'
 import mapping from '../assets/mapping.png'
-import wmjordan from '..assets/wmjordan.png'
-import vavideo from '..assets/vavideo.mp4'
-import academic from '../assets/fts.png'
+import wmjordanvideo from '../assets/wmjordanvideo.mp4'
+import vavideo from '../assets/vavideo.mp4'
+import academic from '../assets/unnamed.gif'
 
 const Projects = (props) =>{
     return (
@@ -21,7 +21,7 @@ const Projects = (props) =>{
         <div className= "project-page">
         <div className = "projects">
             <div className="individual">
-                <div className="individual-image-container">
+                   <div className="individual-image-container">
                     <a href = "https://academiccme.com/" target="_blank" rel="noreferrer noopener" ><img src={academic} alt="AcademicCME website"/></a>
                 </div>
                 <div className = "individual-content">
@@ -31,8 +31,12 @@ const Projects = (props) =>{
                 </div>
             </div>
             <div className = "individual">
-            <div className="individual-image-container">
-                    <a href = "https://wmjordan.com/" target="_blank" rel="noreferrer noopener" ><img src={wmjordan} alt="WMJordan website"/></a>
+                <div className="individual-image-container sample-image">
+                <a href = "https://wmjordan.com/" target="_blank" rel="noreferrer noopener" >
+                        <video autoPlay loop muted>
+                        <source src={wmjordanvideo} type="video/mp4" />
+                        </video>
+                        </a>
                 </div>
                 <div className = "individual-content">
                     <h2>W.M. Jordan <br/>Website Redesign</h2><br/>
