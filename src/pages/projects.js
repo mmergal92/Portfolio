@@ -16,7 +16,7 @@ const Projects = (props) =>{
     return (
         <>
         <div className ="project-text">
-            <h1>CURRENT WORK</h1>
+            <h1>RECENT WORK</h1>
         </div>
         <div className= "project-page">
         <div className = "projects">
