@@ -6,8 +6,8 @@ import sample_site_AdobeCreativeCloudExpress from '../assets/sample_site_AdobeCr
 import sample_image from '../assets/sample_image.png'
 import AAFSCfeatures from '../assets/AAFSCfeatures.jpg'
 import ALportfolio from '../assets/ALportfolio.jpg'
-import fts from '../assets/fts.jpg'
-import mapping from '../assets/mapping.jpg'
+import fts from '../assets/fts.png'
+import mapping from '../assets/mapping.png'
 
 const Projects = (props) =>{
     return (
