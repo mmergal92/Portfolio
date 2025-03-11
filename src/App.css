@@ -1,9 +1,9 @@
 :root {
-  --black: #32362B;
-  --main: #42523D;
-  --secondary: #7D967A;
+  --black: #FDF8EF;
+  /* --main: #42523D;
+  --secondary: #7D967A; */
   --hover: #CAB4A5;
-  --white: #FFFFF4;
+  /* --white: #FDF8EF; */
 }
 .App {
   font-family: neue-haas-grotesk-display, sans-serif;
@@ -12,13 +12,13 @@
   text-align: center;
   color: var(--black);
   min-height: 100vh;
-  background-color: #FDF8EF;
+  background-color: #1F0001;
   position: relative;
   /* padding-bottom: 100px; */
   /* border: 1px solid red; */
 }
 .App-header {
-  background-color: #282c34;
+  background-color: #1F0001;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
