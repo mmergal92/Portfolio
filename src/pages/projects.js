@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import image_ot_day from '../assets/image_ot_day.webp'
 import brandingkits from '../assets/brandingkits.webp'
-import stocks from '../assets/stocks.jpg'
+import stocks from '../assets/stocks.webp'
 import sample_site_AdobeCreativeCloudExpress from '../assets/sample_site_AdobeCreativeCloudExpress.mp4'
 import sample_image from '../assets/sample_image.webp'
 import AAFSCfeatures from '../assets/AAFSCfeatures.jpg'
