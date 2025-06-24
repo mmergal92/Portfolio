@@ -5,7 +5,7 @@ import React, {useState} from 'react';
 import sample_site_AdobeCreativeCloudExpress from '../assets/sample_site_AdobeCreativeCloudExpress.mp4'
 // import sample_image from '../assets/sample_image.webp'
 import AAFSCfeatures from '../assets/AAFSCfeatures.jpg'
-import ALportfolio from '../assets/ALportfolio.jpg'
+import ALportfolio from '../assets/annalise.webm'
 import fts from '../assets/fts.webp'
 import mapping from '../assets/enclaves.webm'
 import wmjordanvideo from '../assets/wmjordanvideo.mp4'
@@ -88,7 +88,11 @@ const Projects = (props) =>{
             </div>
             <div className="individual">
                 <div className="individual-image-container">
-                    <a href = "https://annaliselockhart.com/" target="_blank" rel="noreferrer noopener" ><img src={ALportfolio} alt="Annalise Lockhart Portfolio"/></a>
+                    <a href = "https://annaliselockhart.com/" target="_blank" rel="noreferrer noopener" >
+                        <video autoPlay loop muted>
+                        <source src={ALportfolio} type="video/mp4" />
+                        </video>
+                    </a>
                 </div>
                 <div className = "individual-content">
                     <h2>Annalise Lockhart <br/>Porfolio Website</h2><br/>
@@ -96,7 +100,7 @@ const Projects = (props) =>{
                     <h5><a href = "https://annaliselockhart.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
             </div>
-            <div className="individual">
+            {/* <div className="individual">
                 <div className="individual-image-container">
                     <a href = "https://www.aafscny.org/" target="_blank" rel="noreferrer noopener" ><img src={AAFSCfeatures} alt="Arab American Family Support Center"/></a>
                 </div>
@@ -105,8 +109,8 @@ const Projects = (props) =>{
                     <h4>I created several features for this existing WordPress website. I added the rotating banner found on the homepage. I also created a new blog layout and implemented a search and filter feature. These features all use Advanced Custom Fields so that the client can update and edit internally, as needed.</h4>
                     <h5><a href = "https://www.aafscny.org/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
-            </div>
-            <div className = "individual">
+            </div> */}
+            {/* <div className = "individual">
                 <div className="individual-image-container sample-image">
                 <a href = "https://mmergal92.github.io/Sample_site/" target="_blank" rel="noreferrer noopener" >
                         <video autoPlay loop muted>
@@ -120,7 +124,7 @@ const Projects = (props) =>{
                     <h5><a href = "https://github.com/mmergal92/Sample_site" target="_blank" rel="noreferrer noopener" >Github</a>&nbsp;&nbsp;&nbsp;
                     <a href = "https://mmergal92.github.io/Sample_site/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
     </>
