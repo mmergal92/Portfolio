@@ -211,8 +211,11 @@ height: 80vh;
   
 }
 .individual-image-container{
-  width: 100%;
+   width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000; /* Optional: fallback background */
   overflow: hidden;
+  border-radius: 6px;
   position: relative;
 }
 /* .individual-image-container img{
@@ -225,12 +228,12 @@ height: 80vh;
   /* height: 320px;
   object-fit: cover; 
   position: relative; */
-  width: 100%;
-  height: auto; /* Let the video resize proportionally */
-  aspect-ratio: 16 / 9; /* Keeps videos consistent */
-  object-fit: contain; /* Show full video without cropping */
+  /* width: 100%;
+  height: auto; 
+  aspect-ratio: 16 / 9; 
+  object-fit: contain; 
   display: block;
-  border-radius: 6px;
+  border-radius: 6px; */
 }
 .individual-content{
   margin-top: 10px;
@@ -355,12 +358,14 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
   flex-direction: column !important;
 }
 
-.individual-image-container video,
-.individual-image-container img {
+.individual-image-container video {
   width: 100% !important;
-  aspect-ratio: 16 / 9 !important;
+  /* aspect-ratio: 16 / 9 !important; */
   object-fit: contain !important;
-  border-radius: 6px !important;
+  border-radius: 20px !important;
+  height: 100%;
+  object-position: center;
+  display: block;
 }
 
 @media screen and (max-width: 900px) {
