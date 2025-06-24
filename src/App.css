@@ -298,13 +298,13 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
   padding-right: 10px;
   text-align:right;
 }
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .projects {
     grid-template-columns: 1fr;
     gap: 24px;
     padding: 0 5%;
   }
-}
+} */
 
 @media screen and (max-width: 720px){
   .App{
@@ -366,9 +366,9 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
   border-radius: 20px !important;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .projects {
     grid-template-columns: 1fr !important;
     gap: 24px !important;
   }
-}
+} */
