@@ -194,17 +194,17 @@ height: 80vh;
 .projects{
   /* grid-column: 2 / span 12;
   display: grid;
-  grid-template-columns: repeat(12, minmax(auto, 60px));
-  grid-gap: 40px; */
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(12, minmax(auto, 60px)); */
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
   grid-gap: 40px;
+  width: 100%;
 }
 .individual{
     grid-column: auto; /* Let it automatically fill */
-
-  /* grid-column-end: span 6;
   display: flex;
-  flex-direction: column; */
+  flex-direction: column;
+  /* grid-column-end: span 6; */
 }
 .individual-image-container{
   width: 100%;
@@ -218,13 +218,15 @@ height: 80vh;
   position: relative;
 }
 .individual-image-container video{
-  width: 100%;
   /* height: 320px;
   object-fit: cover; 
   position: relative; */
-  aspect-ratio: 16 / 9; 
-  object-fit: contain; 
+  width: 100%;
+  height: auto; /* Let the video resize proportionally */
+  aspect-ratio: 16 / 9; /* Keeps videos consistent */
+  object-fit: contain; /* Show full video without cropping */
   display: block;
+  border-radius: 6px;
 }
 .individual-content{
   margin-top: 10px;
@@ -304,6 +306,7 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
   }
   .projects{
     /* grid-column: 2 / span 12; */
+    
    grid-template-columns: 1fr;
     grid-gap: 20px;
   }
