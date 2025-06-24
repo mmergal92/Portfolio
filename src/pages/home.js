@@ -12,7 +12,7 @@ const Home = (props) =>{
             </h1>
           </div>
           <div className = "home-bottom">
-            <p>maria is a full-stack software developer based in astoria, ny<br/>
+            <p>maria is a web developer based in astoria, ny<br/>
             co-founder of <a href="https://itsproof.co" target="_blank">Proof Agency</a></p>
           </div>
         </div>  
