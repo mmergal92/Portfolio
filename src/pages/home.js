@@ -12,8 +12,8 @@ const Home = (props) =>{
             </h1>
           </div>
           <div className = "home-bottom">
-            <p>maria is a full-stack software developer based in astoria, ny</p><br/>
-            <p>co-founder of <a href="itsproof.co" target="_blank">Proof Agency</a></p>
+            <p>maria is a full-stack software developer based in astoria, ny<br/>
+            co-founder of <a href="itsproof.co" target="_blank">Proof Agency</a></p>
           </div>
         </div>  
         )
