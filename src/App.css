@@ -192,15 +192,19 @@ height: 80vh;
   color: var(--hover);
 }
 .projects{
-  grid-column: 2 / span 12;
+  /* grid-column: 2 / span 12;
   display: grid;
   grid-template-columns: repeat(12, minmax(auto, 60px));
+  grid-gap: 40px; */
+    grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
 }
 .individual{
-  grid-column-end: span 6;
+    grid-column: auto; /* Let it automatically fill */
+
+  /* grid-column-end: span 6;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
 }
 .individual-image-container{
   width: 100%;
@@ -215,9 +219,12 @@ height: 80vh;
 }
 .individual-image-container video{
   width: 100%;
-  height: 320px;
+  /* height: 320px;
   object-fit: cover; 
-  position: relative;
+  position: relative; */
+  aspect-ratio: 16 / 9; 
+  object-fit: contain; 
+  display: block;
 }
 .individual-content{
   margin-top: 10px;
@@ -296,10 +303,14 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
     height: 250px !important;
   }
   .projects{
-    grid-column: 2 / span 12;
+    /* grid-column: 2 / span 12; */
+   grid-template-columns: 1fr;
+    grid-gap: 20px;
   }
   .individual{
-    grid-column-end: span 10;
+    /* grid-column-end: span 10; */
+    grid-column: auto;
+
   }
   .home-top h1{
     padding-top: 40%;
