@@ -74,7 +74,11 @@ const Projects = (props) =>{
             </div>
             <div className="individual">
                 <div className="individual-image-container">
-                    <a href = "https://mariam100.sg-host.com/" target="_blank" rel="noreferrer noopener" ><img src={mapping} alt="Arab American Family Support Center"/></a>
+                    <a href = "https://mariam100.sg-host.com/" target="_blank" rel="noreferrer noopener" >
+                        <video autoPlay loop muted>
+                        <source src={mapping} type="video/mp4" />
+                        </video>
+                    </a>
                 </div>
                 <div className = "individual-content">
                     <h2>Mapping Communities <br/>Microsite Build</h2><br/>
