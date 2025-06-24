@@ -200,6 +200,7 @@ height: 80vh;
 .individual {
   display: flex !important;
   flex-direction: column !important;
+    min-width: 0; /* prevent content overflow */
 }
 
 .individual-image-container{
@@ -208,10 +209,12 @@ height: 80vh;
   background: #000;
   border-radius: 20px;
 }
-.individual-image-container video {
-   width: 100%;
+
+.individual-image-container video,
+.individual-image-container img {
+  width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: contain; /* 'cover' ensures uniform look */
   display: block;
 }
 
