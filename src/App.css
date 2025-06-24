@@ -51,6 +51,14 @@ h2{
   /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--black); */
 }
+a {
+  color: #1f0001;
+  text-decoration: none;
+}
+a:hover {
+  color: #1f0001;
+  text-decoration: underline;
+}
 h3{
     color: white;
     font-weight: 400 !important;
