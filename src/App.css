@@ -192,9 +192,9 @@ height: 80vh;
   color: var(--hover);
 }
 .projects{
-  /* grid-column: 2 / span 12;
+  grid-column: 2 / span 12;
   display: grid;
-  grid-template-columns: repeat(12, minmax(auto, 60px)); */
+  /* grid-template-columns: repeat(12, minmax(auto, 60px)); */
   grid-template-columns: repeat(2, 1fr);
   display: grid;
   grid-gap: 40px;
@@ -204,7 +204,7 @@ height: 80vh;
     grid-column: auto; /* Let it automatically fill */
   display: flex;
   flex-direction: column;
-  /* grid-column-end: span 6; */
+  grid-column-end: span 6;
 }
 .individual-image-container{
   width: 100%;
