@@ -361,12 +361,9 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
 
 .individual-image-container video {
   width: 100% !important;
-  /* aspect-ratio: 16 / 9 !important; */
+  aspect-ratio: 16 / 9 !important;
   object-fit: contain !important;
   border-radius: 20px !important;
-  height: 100%;
-  object-position: center;
-  display: block;
 }
 
 @media screen and (max-width: 900px) {
