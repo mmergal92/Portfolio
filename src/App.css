@@ -290,7 +290,7 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
     grid-gap: 20px;
   }
   .sample-image{
-    background-image: url('./assets/sample_image.png');
+    background-image: url('./assets/sample_image.webp');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 250px !important;
