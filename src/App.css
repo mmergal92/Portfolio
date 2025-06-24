@@ -165,9 +165,9 @@ height: 80vh;
   align-items: center;
 }
 .project-page{
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
-  grid-gap: 40px;
+  grid-gap: 40px; */
   padding: 60px 0;
 }
 .project-page h4{
@@ -195,15 +195,15 @@ height: 80vh;
   /* grid-column: 2 / span 12; */
   /* grid-template-columns: repeat(12, minmax(auto, 60px)); */
   /* grid-template-columns: repeat(2, 1fr); */
-  display: grid;
   /* grid-gap: 40px; */
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   width: 100%;
   padding: 0 5%;
 }
 .individual{
-    grid-column: auto; /* Let it automatically fill */
+  /* grid-column: auto;  */
   display: flex;
   flex-direction: column;
   /* grid-column-end: span 6; */
@@ -214,12 +214,12 @@ height: 80vh;
   overflow: hidden;
   position: relative;
 }
-.individual-image-container img{
+/* .individual-image-container img{
   width: 100%;
   height: 320px;
   object-fit: cover; 
   position: relative;
-}
+} */
 .individual-image-container video{
   /* height: 320px;
   object-fit: cover; 
@@ -292,6 +292,13 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
 .footer-right h6{
   padding-right: 10px;
   text-align:right;
+}
+@media screen and (max-width: 900px) {
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 0 5%;
+  }
 }
 
 @media screen and (max-width: 720px){
