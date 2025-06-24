@@ -23,7 +23,7 @@ const Projects = (props) =>{
             <div className="individual">
                 <div className="individual-image-container">
                 <a href = "https://academiccme.com/" target="_blank" rel="noreferrer noopener" >
-                        <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline preload="none" loading="lazy">
                         <source src={academic} type="video/mp4" />
                         </video>
                         </a>
@@ -37,7 +37,7 @@ const Projects = (props) =>{
             <div className = "individual">
                 <div className="individual-image-container">
                 <a href = "https://wmjordan.com/" target="_blank" rel="noreferrer noopener" >
-                        <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline preload="none" loading="lazy">
                         <source src={wmjordanvideo} type="video/mp4" />
                         </video>
                         </a>
@@ -61,7 +61,7 @@ const Projects = (props) =>{
             <div className="individual">
                 <div className="individual-image-container">
                 <a href = "https://www.visitaugustacounty.com/" target="_blank" rel="noreferrer noopener" >
-                        <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline preload="none" loading="lazy">
                         <source src={vavideo} type="video/mp4" />
                         </video>
                         </a>
@@ -75,7 +75,7 @@ const Projects = (props) =>{
             <div className="individual">
                 <div className="individual-image-container">
                     <a href = "https://mariam100.sg-host.com/" target="_blank" rel="noreferrer noopener" >
-                        <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline preload="none" loading="lazy">
                         <source src={mapping} type="video/mp4" />
                         </video>
                     </a>
@@ -89,7 +89,7 @@ const Projects = (props) =>{
             <div className="individual">
                 <div className="individual-image-container">
                     <a href = "https://annaliselockhart.com/" target="_blank" rel="noreferrer noopener" >
-                        <video autoPlay loop muted>
+                    <video autoPlay loop muted playsInline preload="none" loading="lazy">
                         <source src={ALportfolio} type="video/mp4" />
                         </video>
                     </a>
