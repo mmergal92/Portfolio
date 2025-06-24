@@ -165,6 +165,7 @@ height: 80vh;
   align-items: center;
 }
 .project-page{
+    display: block !important;
   /* display: grid;
   grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
   grid-gap: 40px; */
@@ -305,9 +306,9 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
   .App{
     overflow: hidden;
   }
-  .project-page{
+  /* .project-page{
     grid-gap: 20px;
-  }
+  } */
   .sample-image{
     background-image: url('./assets/sample_image.webp');
     background-size: 100%;
