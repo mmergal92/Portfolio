@@ -197,16 +197,16 @@ height: 80vh;
   /* grid-template-columns: repeat(12, minmax(auto, 60px)); */
   /* grid-template-columns: repeat(2, 1fr); */
   /* grid-gap: 40px; */
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   width: 100%;
-  padding: 0 5%;
+  padding: 0 5%; */
 }
 .individual{
   /* grid-column: auto;  */
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   /* grid-column-end: span 6; */
   
 }
@@ -214,6 +214,7 @@ height: 80vh;
    width: 100%;
   aspect-ratio: 16 / 9;
   background: #000; /* Optional: fallback background */
+  border-radius: 20px;
   overflow: hidden;
   border-radius: 6px;
   position: relative;
@@ -342,7 +343,7 @@ a.projectnav h6:hover, a.contactnav h6:hover, a.aboutnav h6:hover, a.homenav h6:
 }
 .project-page {
   display: block !important;
-  padding: 60px 0 !important;
+  padding: 60px 0 80px 0 !important;
 }
 
 .projects {
