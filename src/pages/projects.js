@@ -29,7 +29,8 @@ const Projects = (props) =>{
                         </a>
                 </div>
                 <div className = "individual-content">
-                    <h2>AcademicCME <br/>Website Redesign</h2><br/>
+                    <h2>AcademicCME</h2>
+                    <h3>Website Redesign</h3>
                     <h4>AcademicCME provides continuing medical education to medical professionals around the world. Recognizing the need to enhance user experience, strengthen brand presence within the educational community, and drive user acquisition and retention, AcademicCME partnered with our team to develop a comprehensive digital solution. Our team created an updated brand that promoted user trust and transformed their site by building a custom user management system and a robust CME course creation platform.</h4>
                     <h5><a href = "https://academiccme.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
@@ -43,7 +44,8 @@ const Projects = (props) =>{
                         </a>
                 </div>
                 <div className = "individual-content">
-                    <h2>W.M. Jordan <br/>Website Redesign</h2><br/>
+                    <h2>W.M. Jordan</h2>
+                    <h3>Website Redesign</h3>
                     <h4>W.M. Jordan Company is a leading construction and real estate development firm serving Virginia, North Carolina, and South Carolina. Committed to quality and excellence, the company supports projects from concept to completion in diverse markets across the region and adds value to every project through quality workmanship, efficiency, and a positive attitude. Our team was brought on to future-proof W.M. Jordan and to create a new website that not only followed current best practices and reflected the growth of the company, but also allowed for scalability.</h4>
                     <h5><a href = "https://wmjordan.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>    
@@ -53,7 +55,8 @@ const Projects = (props) =>{
                     <a href = "https://focaltherapy.org/" target="_blank" rel="noreferrer noopener" ><img src={fts} alt="Focal Therapy Society website"/></a>
                 </div>
                 <div className = "individual-content">
-                    <h2>Focal Therapy Society <br/>Website Redesign</h2><br/>
+                    <h2>Focal Therapy Society</h2>
+                    <h3>Website Redesign</h3>
                     <h4>The Focal Therapy Society is an educational initiative that focuses on advancing minimally invasive cancer treatments to destroy prostate cancer while preventing a man’s continence and potency. Through annual conferences and distinguished faculty, the society fosters a forward-thinking community that is dedicated to improving patient care with the latest techniques. Our team partnered with FTS to create a more comprehensive online platform for their society members and transform the website into a tool that can be used to showcase events, learner resources, and technological advances for the society.</h4>
                     <h5><a href = "https://focaltherapy.org/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
@@ -67,7 +70,8 @@ const Projects = (props) =>{
                         </a>
                 </div>
                 <div className = "individual-content">
-                    <h2>Visit Augusta <br/>Website Redesign</h2><br/>
+                    <h2>Visit Augusta</h2>
+                    <h3>Website Redesign</h3>
                     <h4>Visit Augusta County is a tourism company that focuses on attracting visitors to Augusta County, located in Virginia's Shenandoah Valley. It’s a destination known for its outdoor recreation, local farms, historical landmarks, and scenic beauty. Our team redesigned Augusta County’s website to elevate its tourism appeal and highlight the natural beauty along with its other attractions and make it easier for visitors to plan their perfect getaway.</h4>
                     <h5><a href = "https://www.visitaugustacounty.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
@@ -81,7 +85,8 @@ const Projects = (props) =>{
                     </a>
                 </div>
                 <div className = "individual-content">
-                    <h2>Mapping Communities <br/>Microsite Build</h2><br/>
+                    <h2>Mapping Communities</h2>
+                    <h3>Microsite Build</h3>
                     <h4>This project aims to study and map the histories of two Black enclaves in New York City—Seneca Village and Weeksville— from the early 1800s to the mid 1950s, highlighting their cultural, social, and historical significance. By examining public records, historical contexts, and racial dynamics, it seeks to create educational resources that amplify silenced voices and deepen understanding of Black communities' contributions to NYC's development.</h4>
                     <h5><a href = "https://mariam100.sg-host.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
@@ -95,7 +100,8 @@ const Projects = (props) =>{
                     </a>
                 </div>
                 <div className = "individual-content">
-                    <h2>Annalise Lockhart <br/>Porfolio Website</h2><br/>
+                    <h2>Annalise Lockhart</h2>
+                    <h3>Porfolio Website</h3>
                     <h4>Together with the UX designer, we created a brand identity for a film director's portfolio that evokes emotion, builds a connection with her audience, and communicates her deeper purpose. After developing her brand identity, we created a website that is the digital representation of this brand. This is a WordPress website with custom coding that I developed. </h4>
                     <h5><a href = "https://annaliselockhart.com/" target="_blank" rel="noreferrer noopener" >LiveSite</a></h5>
                 </div>
