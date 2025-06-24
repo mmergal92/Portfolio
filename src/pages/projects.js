@@ -21,7 +21,7 @@ const Projects = (props) =>{
         <div className= "project-page">
         <div className = "projects">
             <div className="individual">
-                <div className="individual-image-container sample-image">
+                <div className="individual-image-container">
                 <a href = "https://academiccme.com/" target="_blank" rel="noreferrer noopener" >
                         <video autoPlay loop muted>
                         <source src={academic} type="video/mp4" />
@@ -35,7 +35,7 @@ const Projects = (props) =>{
                 </div>
             </div>
             <div className = "individual">
-                <div className="individual-image-container sample-image">
+                <div className="individual-image-container">
                 <a href = "https://wmjordan.com/" target="_blank" rel="noreferrer noopener" >
                         <video autoPlay loop muted>
                         <source src={wmjordanvideo} type="video/mp4" />
@@ -59,7 +59,7 @@ const Projects = (props) =>{
                 </div>
             </div>
             <div className="individual">
-                <div className="individual-image-container sample-image">
+                <div className="individual-image-container">
                 <a href = "https://www.visitaugustacounty.com/" target="_blank" rel="noreferrer noopener" >
                         <video autoPlay loop muted>
                         <source src={vavideo} type="video/mp4" />
