@@ -12,13 +12,13 @@
   text-align: center;
   color: var(--black);
   min-height: 100vh;
-  background-color: #CFC4C3;
+  background-color: #E7E1E1;
   position: relative;
   /* padding-bottom: 100px; */
   /* border: 1px solid red; */
 }
 .App-header {
-  background-color: #CFC4C3;
+  background-color: #E7E1E1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,12 +42,14 @@ h1 {
   margin: 10px;
 }
 h2{
+  color: var(--black);
   text-align: left;
   font-weight: 500;
   font-size: 40px;
   padding-right: 15px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--black);
+  letter-spacing: 2px;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--black); */
   color: transparent;
 }
 h4{
@@ -206,8 +208,8 @@ height: 80vh;
 .individual-image-container{
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #000;
-  border-radius: 20px;
+  background: #1f0001;
+  border-radius: 10px;
 }
 
 .individual-image-container video,
